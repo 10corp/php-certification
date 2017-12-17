@@ -1,0 +1,22 @@
+{
+    "name": "danielruizcamacho/certification",
+    "description": "PHP certification examples and references",
+    "authors": [
+        {
+            "name": "Daniel Ruiz Camacho",
+            "email": "daniel.ruizcamacho@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devoceanic\\Certification\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\Devoceanic\\Certification\\": "tests/" }
+    }
+}
