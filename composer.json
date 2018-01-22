@@ -1,6 +1,7 @@
 {
     "name": "danielruizcamacho/certification",
     "description": "PHP certification examples and references",
+    "type": "project",
     "authors": [
         {
             "name": "Daniel Ruiz Camacho",
