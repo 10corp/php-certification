@@ -1,0 +1,19 @@
+<?php
+$finder = PhpCsFixer\Finder::create()
+    ->in(__DIR__);
+return PhpCsFixer\Config::create()
+    ->setRiskyAllowed(true)
+    ->setRules(
+        [
+            '@Symfony' => true,
+            'array_syntax' => ['syntax' => 'short'],
+            'concat_space' => ['spacing' => 'one'],
+            'is_null' => true,
+            'linebreak_after_opening_tag' => true,
+            'declare_strict_types' => true,
+            'non_printable_character' => true,
+            'ordered_imports' => ['sortAlgorithm' => 'alpha'],
+            'phpdoc_order' => true,
+        ]
+    )
+    ->setFinder($finder);
