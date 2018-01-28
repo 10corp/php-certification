@@ -12,7 +12,7 @@ class ChapterOneTest extends TestCase
     /**
      * @test
      */
-    public function echoMethodInLowercase()
+    public function echoMethodInLowercase(): void
     {
         $chapterOne = new ChapterOne();
         $this->expectOutputString('Hello world');
@@ -22,7 +22,7 @@ class ChapterOneTest extends TestCase
     /**
      * @test
      */
-    public function echoMethodInUppercase()
+    public function echoMethodInUppercase(): void
     {
         $chapterOne = new ChapterOne();
         $this->expectOutputString('Hello world');
