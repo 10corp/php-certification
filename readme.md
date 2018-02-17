@@ -11,7 +11,8 @@ Here I will describe some references that I will use to prepare the certificatio
 
 ## Links
 [Diego Lazaro, PHP Certification Reference](https://diego.com.es/certificacion-php)  
-[Francisco Felix. Demythifying PHP Certification Exam](https://www.linkedin.com/pulse/demythifying-zend-certification-exam-francisco-felix/)
+[Francisco Felix. Demythifying PHP Certification Exam](https://www.linkedin.com/pulse/demythifying-zend-certification-exam-francisco-felix/)  
+[Edward Chung. Passing the Zend PHP Certification Exam](https://edward-designer.com/web/passing-php-5-3-certification-exam/#How_to_study)
 
 ## Books 
 

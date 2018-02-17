@@ -115,4 +115,17 @@ class ChapterOneTest extends TestCase
             $this->chapterOne->ternaryOperator(false, $firstValue, $secondValue)
         );
     }
+
+    /**
+     * @test
+     */
+    public function spaceshipOperator(): void
+    {
+        $this->assertSame(1, $this->chapterOne->spaceshipOperator(1, 0));
+        $this->assertSame(0, $this->chapterOne->spaceshipOperator(0, 0));
+        $this->assertSame(-1, $this->chapterOne->spaceshipOperator(1, 2));
+        $this->assertSame(1, $this->chapterOne->spaceshipOperator('apples', 'Bananas'));
+        $this->assertSame(-1, $this->chapterOne->spaceshipOperator('Apples', 'bananas'));
+        $this->assertSame(1, $this->chapterOne->spaceshipOperator(1, 'bananas'));
+    }
 }

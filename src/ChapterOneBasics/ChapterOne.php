@@ -92,4 +92,15 @@ class ChapterOne
     {
         return $condition ? $firstValue : $secondValue;
     }
+
+    /**
+     * @param mixed $firstValue
+     * @param mixed $secondValue
+     *
+     * @return int
+     */
+    public function spaceshipOperator($firstValue, $secondValue): int
+    {
+        return $firstValue <=> $secondValue;
+    }
 }
