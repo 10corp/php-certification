@@ -70,10 +70,10 @@ class ChapterOneTest extends TestCase
      */
     public function useAndWordOperatorWithoutAssignValue(): void
     {
-        $this->assertTrue($this->chapterOne->useAndWordOperator(true, false));
-        $this->assertTrue($this->chapterOne->useAndWordOperator(true, true));
-        $this->assertFalse($this->chapterOne->useAndWordOperator(false, true));
-        $this->assertFalse($this->chapterOne->useAndWordOperator(false, false));
+        $this->assertFalse($this->chapterOne->useAndWordOperatorWithoutAssignValue(true, false));
+        $this->assertTrue($this->chapterOne->useAndWordOperatorWithoutAssignValue(true, true));
+        $this->assertFalse($this->chapterOne->useAndWordOperatorWithoutAssignValue(false, true));
+        $this->assertFalse($this->chapterOne->useAndWordOperatorWithoutAssignValue(false, false));
     }
 
     /**
